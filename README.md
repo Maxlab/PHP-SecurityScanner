@@ -30,10 +30,14 @@ $scanner->printResults();
 
 All contributions are welcome! If you wish to contribute, please create an issue first so that your feature, problem or question can be discussed.
 
+## Disclaimer
+
+You should probably use this library with your own websites and repositories only.
+
 ## License
 
 ```
-Copyright 2015 www.delight.im <info@delight.im>
+Copyright 2015 delight.im <info@delight.im>
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
