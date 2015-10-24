@@ -2,12 +2,30 @@
 
 A basic tool for detecting vulnerabilities in web applications
 
+## Requirements
+
+ * PHP 5.5.0+
+
+## Installation
+
+ * Set up the PHP library
+   * Install via [Composer](https://getcomposer.org/) (recommended)
+
+     `$ composer require delight-im/security-scanner`
+
+     Include the Composer autoloader:
+
+     `require __DIR__.'/vendor/autoload.php';`
+
+   * or
+   * Install manually
+     * Copy the contents of the [`src`](src) directory to a subfolder of your project
+     * Include the files in your code via `require` or `require_once`
+
 ## Usage
 
 ```
-header('Content-type: text/plain; charset=utf-8');
-
-require __DIR__.'/src/SecurityScanner.php';
+// header('Content-type: text/plain; charset=utf-8');
 
 $scanner = new Delight\SecurityScanner\SecurityScanner('http://www.example.com/');
 $scanner->run();
