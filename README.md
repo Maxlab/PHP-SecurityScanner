@@ -26,7 +26,7 @@ A basic tool for detecting vulnerabilities in web applications
 ```
 // header('Content-type: text/plain; charset=utf-8');
 
-$scanner = new Delight\SecurityScanner\SecurityScanner('http://www.example.com/');
+$scanner = new \Delight\SecurityScanner\SecurityScanner('http://www.example.com/');
 $scanner->run();
 $scanner->printResults();
 ```
