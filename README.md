@@ -33,6 +33,7 @@ $scanner->printResults();
 
 ## More advanced tools
 
+ * [Observatory by Mozilla](https://observatory.mozilla.org/)
  * [OWASP Zed Attack Proxy (ZAP)](https://github.com/zaproxy/zaproxy)
  * [Vega](https://subgraph.com/vega/)
  * [Wapiti](http://wapiti.sourceforge.net/)
